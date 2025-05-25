@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import ShopPage from './pages/ShopPage';
 import CheckoutPage from './pages/CheckoutPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 import Cart from './components/Cart';
 import ProductDetail from './components/ProductDetail';
 import { Product } from './types';
@@ -108,6 +110,14 @@ const App: React.FC = () => {
             />
           )}
 
+          {activePage === 'about' && (
+            <AboutPage />
+          )}
+
+          {activePage === 'contact' && (
+            <ContactPage />
+          )}
+
           {activePage === 'product' && selectedProduct && (
             <ProductDetail 
               product={selectedProduct}
@@ -126,4 +136,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default App; 

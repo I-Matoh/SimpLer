@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 interface HeroProps {
@@ -6,8 +6,14 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ onShopNow }) => {
+  useEffect(() => {
+    console.log('Hero mounted');
+  }, []);
+
+  console.log('Hero rendering');
+
   return (
-    <div className="relative bg-gray-900 overflow-hidden">
+    <div className="relative bg-gray-900 overflow-hidden min-h-[600px]">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img

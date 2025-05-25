@@ -6,6 +6,15 @@ interface LoginFormProps {
   onSuccess: () => void;
 }
 
+const validateEmail = (email: string): boolean => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+};
+
+const validatePassword = (password: string): boolean => {
+  return password.length >= 8;
+};
+
 const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
   const [isLogin, setIsLogin] = useState(true);
   const [name, setName] = useState('');
@@ -19,6 +28,19 @@ const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
+
+    // Validate email format
+    if (!validateEmail(email)) {
+      setError('Please enter a valid email address');
+      return;
+    }
+
+    // Validate password
+    if (!isLogin && !validatePassword(password)) {
+      setError('Password must be at least 8 characters long');
+      return;
+    }
+
     setLoading(true);
 
     try {
