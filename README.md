@@ -2,7 +2,7 @@
 
 A modern, responsive e-commerce platform built with React, TypeScript, and Tailwind CSS. Features a clean, intuitive interface with advanced shopping features.
 
-## Features
+## Features:
 
 ### Shopping Experience
 - **Product Catalog** with advanced filtering:
