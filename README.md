@@ -11,7 +11,7 @@ A modern, responsive e-commerce platform built with React, TypeScript, and Tailw
   - Price range filtering
   - Rating-based filtering
   - Stock status filtering
-  - Multiple sorting options (featured, price, rating, name)
+  - Multiple sorting options (featured, price, rating, name) 
 
 ### Shopping Cart
 - Real-time cart updates
