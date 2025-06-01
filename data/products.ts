@@ -28,7 +28,7 @@ export const products: Product[] = [
   {
     id: 3,
     name: "Ultra HD 4K Monitor",
-    price: 499.99,
+    price: 699.99,
     image: "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     description: "Enhance your viewing experience with our Ultra HD 4K monitor. Features vibrant colors, wide viewing angles, and adjustable stand for maximum comfort.",
     category: "computers",
