@@ -12,7 +12,7 @@ export const products: Product[] = [
     reviews: 124,
     inStock: true,
     featured: true
-  },
+  }, 
   {
     id: 2,
     name: "Smart Fitness Watch",
