@@ -16,7 +16,7 @@ export const products: Product[] = [
   {
     id: 2,
     name: "Smart Fitness Watch",
-    price: 199.99,
+    price: 190.99,
     image: "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     description: "Track your fitness goals with our advanced smart watch. Monitors heart rate, sleep patterns, and activity levels with a 7-day battery life.",
     category: "wearables",
