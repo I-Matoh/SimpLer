@@ -98,7 +98,7 @@ const cartReducer = (state: CartState, action: CartAction): CartState => {
       
     default:
       throw new Error('Invalid cart action');
-  }
+  } 
 };
 
 export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
@@ -106,7 +106,7 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   
   // Load cart from localStorage on mount
   useEffect(() => {
-    const savedCart = localStorage.getItem(CART_STORAGE_KEY);
+    const savedCart = localStorage.getItem(CART_STORAGE_KEY); 
     if (savedCart) {
       dispatch({ type: 'LOAD_CART', payload: JSON.parse(savedCart) });
     }
