@@ -15,7 +15,7 @@ const root = createRoot(rootElement);
 root.render(
   <React.StrictMode>
     <AuthProvider>
-      <CartProvider>
+      <CartProvider> 
         <App />
       </CartProvider>
     </AuthProvider>
