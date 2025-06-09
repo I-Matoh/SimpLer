@@ -13,7 +13,7 @@ interface ShippingInfo {
   address: string;
   city: string;
   state: string;
-  zipCode: string;
+  zipCode: string; 
   country: string;
 }
 
