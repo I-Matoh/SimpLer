@@ -23,7 +23,7 @@ const HomePage: React.FC<HomePageProps> = ({ onShopNow, onSelectProduct }) => {
       <FeaturedProducts onViewAll={onShopNow} onSelectProduct={onSelectProduct} />
       <Benefits />
       <Newsletter />
-    </div>
+    </div> 
   );
 };
 
