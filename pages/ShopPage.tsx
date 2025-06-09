@@ -8,7 +8,7 @@ import { Product } from '../types';
 interface ShopPageProps {
   onSelectProduct: (product: Product) => void;
 }
-
+ 
 const ShopPage: React.FC<ShopPageProps> = ({ onSelectProduct }) => {
   // Get unique categories
   const categories = Array.from(new Set(products.map(product => product.category)));
