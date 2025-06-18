@@ -9,7 +9,7 @@ import { Product } from './types';
 import ErrorBoundary from './components/ErrorBoundary';
 import LoadingSpinner from './components/LoadingSpinner';
 
-const App: React.FC = () => {
+const App: React.FC = () => { 
   const [activePage, setActivePage] = useState('home');
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
