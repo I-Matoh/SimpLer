@@ -21,7 +21,7 @@ const App: React.FC = () => {
       try {
         // Simulate loading time
         await new Promise(resolve => setTimeout(resolve, 1000));
-        setIsLoading(false);
+        setIsLoading(false); 
       } catch (err) {
         console.error('Error initializing app:', err);
         setError(err instanceof Error ? err : new Error('Failed to initialize app'));
