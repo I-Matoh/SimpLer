@@ -12,7 +12,7 @@ const Hero: React.FC<HeroProps> = ({ onShopNow }) => {
 
   console.log('Hero rendering');
 
-  return (
+  return ( 
     <div className="relative bg-gray-900 overflow-hidden min-h-[600px]">
       {/* Background Image */}
       <div className="absolute inset-0">
