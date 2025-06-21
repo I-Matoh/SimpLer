@@ -7,7 +7,7 @@ interface CartProps {
   onClose: () => void;
   onCheckout: () => void;
 }
-
+ 
 const Cart: React.FC<CartProps> = ({ isOpen, onClose, onCheckout }) => {
   const { state, removeFromCart, updateQuantity, clearCart } = useCart();
 
