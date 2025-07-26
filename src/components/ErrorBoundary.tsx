@@ -4,7 +4,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-interface State {
+interface State { 
   hasError: boolean;
   error: Error | null;
 }
