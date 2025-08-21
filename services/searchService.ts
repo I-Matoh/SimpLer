@@ -6,7 +6,7 @@ export interface SearchFilters {
   minPrice?: number;
   maxPrice?: number;
   minRating?: number;
-  inStock?: boolean;
+  inStock?: boolean; 
 }
 
 export const searchProducts = (products: Product[], filters: SearchFilters): Product[] => {
