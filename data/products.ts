@@ -2,7 +2,7 @@ import { Product } from '../types';
 
 export const products: Product[] = [
   {
-    id: 1,
+    id: 1, 
     name: "Premium Wireless Headphones",
     price: 280.99,
     image: "https://images.pexels.com/photos/3394666/pexels-photo-3394666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
