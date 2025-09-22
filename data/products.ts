@@ -11,7 +11,7 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
     inStock: true,
-    featured: true
+    featured: true 
   }, 
   {
     id: 2,
