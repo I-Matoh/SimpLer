@@ -9,7 +9,7 @@ export const products: Product[] = [
     description: "Experience crystal-clear sound with our premium wireless headphones. Featuring active noise cancellation, 30-hour battery life, and ultra-comfortable ear cushions.",
     category: "audio",
     rating: 4.8,
-    reviews: 124,
+    reviews: 124, 
     inStock: true,
     featured: true 
   }, 
