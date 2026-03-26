@@ -6,7 +6,7 @@ type CartState = {
   total: number;
 };
 
-type CartAction = 
+type CartAction =   
   | { type: 'ADD_TO_CART'; payload: Product }
   | { type: 'REMOVE_FROM_CART'; payload: number }
   | { type: 'UPDATE_QUANTITY'; payload: { id: number; quantity: number } }
