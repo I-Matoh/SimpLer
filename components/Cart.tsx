@@ -21,7 +21,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose, onCheckout }) => {
       console.error('Error updating quantity:', err);
     }
   };
-
+  
   if (!isOpen) return null;
 
   const subtotal = state.items.reduce((total, item) => total + (item.price * item.quantity), 0);
