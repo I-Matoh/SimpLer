@@ -5,8 +5,10 @@ import ProductCard from './ProductCard';
 import { getFeaturedProducts } from '../data/products';
 
 interface FeaturedProductsProps {
+  
   onViewAll: () => void;
   onSelectProduct: (product: Product) => void;
+  
 }
 
 const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ onViewAll, onSelectProduct }) => {
